@@ -13,12 +13,16 @@
 }
 
 /* Globals */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #fff;
   font-family: var(--font-primary);
   color: var(--color-description);
-  margin: 0;
-  padding: 0;
 }
 
 a {
@@ -66,11 +70,6 @@ a {
 
 .logo p span {
   color: var(--color-primary);
-}
-
-p {
-  margin: 0;
-  padding: 0;
 }
 
 .section-title {
